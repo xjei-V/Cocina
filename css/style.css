@@ -1,0 +1,214 @@
+/* Estilo para el header y la navegación */
+.header-container {
+    padding: 30px 0;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.logo {
+    width: 30%;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    margin-left: 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-list a:hover {
+    color: #e74c3c; 
+}
+.articulo {
+    background-color: #e74c3c;
+    padding: 179px 0;
+    text-align: center;
+    color: white;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ffffff;
+}
+
+
+
+.articulo1 {
+    background-color: #8bb823da;
+    padding: 179px 0;
+    text-align: center;
+    color: white;
+}
+
+.separador {
+    width: 30%; 
+    margin: 10px auto 20px; /* Centra el separador y añade espacio debajo */
+}
+
+.row h2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.row .col-lg-4 {
+    margin-top: 20px; /* Espacio arriba de cada ícono */
+}
+.contenedor{
+    text-align: center;
+}
+
+.card {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+}
+.resalt{
+    color: #e55b5b;
+}
+.card-header {
+    background-color: #ff6b6b;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 5%;
+    text-align: start;
+    position: relative;
+}
+.price-badge {
+    background-color: #76c893;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    position: absolute;
+    right: 2%;
+}
+.card-body {
+    text-align: center;
+}
+.btn-info {
+    background-color: #ff6b6b;
+    border: none;
+    padding: 8px 80px;
+}
+.btn-info:hover {
+    background-color: #e55b5b;
+}
+.banner {
+    background-image: url('/multimedia/img-escuela-de-cocina-20241030T182116Z-001/img-escuela-de-cocina/chef_bg.jpg'); /* Reemplaza 'URL_DE_LA_IMAGEN.jpg' por la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn-custom {
+    background-color: #ff6b6b;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-custom:hover {
+    background-color: #ff4b4b;
+    color: white;
+}
+.footer {
+    padding: 20px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+.footer .nav-link {
+    color: black;
+    font-weight: 500;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.footer .nav-link:hover {
+    color: #e74c3c; 
+}
+.footer-right {
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    /* Ajustes para dispositivos móviles */
+    .header-container .col-lg-6, .main-container .col-lg-6, .contenedor  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }   
+
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .header-container img, .header-container .icon {
+        margin: 10px auto;
+    }
+   
+
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+   .row{
+    text-align: center;
+   }
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .banner h1 {
+        font-size: 1.2rem;
+    }
+
+    .banner p {
+        font-size: 0.9rem;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .row nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
