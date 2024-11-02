@@ -113,7 +113,7 @@ hr {
     background-color: #e55b5b;
 }
 .banner {
-    background-image: url('/multimedia/img-escuela-de-cocina-20241030T182116Z-001/img-escuela-de-cocina/chef_bg.jpg'); 
+    background-image: url("../multimedia/chef_bg.jpg"); 
     background-size: cover;
     background-position: center;
     height: 100vh;
