@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escuela de Cocina</title>
-    <link rel="stylesheet" href="/css/bootstrap.css">
-    <link rel="stylesheet" href="/css/style.css"> 
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css"> 
 </head>
 <body>
     <header class="header-container container">
@@ -24,7 +24,7 @@
             </div>
         </div>
     </header>
-    <main class="main-container container-fluid">
+    <main class="main-container ">
         <div class="row ">
             <div class="col-lg-6 p-0">
                 <div class="articulo d-flex flex-column justify-content-center align-items-center">
@@ -34,7 +34,7 @@
                     <hr class="w-50">
                 </div>
             </div>
-            <div class="col-lg-6 p-0">
+            <div class="col-lg-6 p-0 fluid">
                 <img src="/multimedia/img-escuela-de-cocina-20241030T182116Z-001/img-escuela-de-cocina/bloque_1.jpg" class="w-100 h-100" alt="Imagen de Escuela de Cocina">
             </div>
         </div>
@@ -60,9 +60,9 @@
         <img class="separador" src="/multimedia/img-escuela-de-cocina-20241030T182116Z-001/img-escuela-de-cocina/separador.png" alt="">
         <div class="contenedor d-flex">
         <div class="col-lg-4">
-            <img src="/multimedia/img-escuela-de-cocina-20241030T182116Z-001/img-escuela-de-cocina/icono_chef.png" alt="" width="20%">
-            <h3>Chef's Especialistas</h3>
-            <p>Los mejores chefs que han trabajado en los mejores<br> restaurantes de Europa</p>
+            <img class="chef"  src="/multimedia/img-escuela-de-cocina-20241030T182116Z-001/img-escuela-de-cocina/icono_chef.png" alt="" width="15%">
+            <h3 class="chef">Chef's Especialistas</h3>
+            <p class="chef">Los mejores chefs que han trabajado en los mejores<br> restaurantes de Europa</p>
         </div>
         
         <div class="col-lg-4">
@@ -80,7 +80,13 @@
     </div>
     <div id="Clases" class="container">
         <div class="row">
-            <div class="col-md-4">
+            <h2>Proximas Clases</h2>
+        </div>
+        <div class="row">
+            <img class="separador" src="/multimedia/img-escuela-de-cocina-20241030T182116Z-001/img-escuela-de-cocina/separador.png" alt="">
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
                 <div class="card">
                     <img src="/multimedia/img-escuela-de-cocina-20241030T182116Z-001/img-escuela-de-cocina/clase1.jpg" class="card-img-top" alt="Comida Mexicana">
                     <div class="card-header">
@@ -96,8 +102,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Tarjeta 2 -->
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <div class="card">
                     <img src="/multimedia/img-escuela-de-cocina-20241030T182116Z-001/img-escuela-de-cocina/clase2.jpg" class="card-img-top" alt="Comida de Marruecos">
                     <div class="card-header">
@@ -112,8 +117,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Tarjeta 3 -->
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <div class="card">
                     <img src="/multimedia/img-escuela-de-cocina-20241030T182116Z-001/img-escuela-de-cocina/curso_3.jpg" class="card-img-top" alt="10 tipos de ensaladas">
                     <div class="card-header">
@@ -133,8 +137,7 @@
 
     <div class="container">
         <div class="row">
-            <!-- Tarjeta 1 -->
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <div class="card">
                     <img src="/multimedia/img-escuela-de-cocina-20241030T182116Z-001/img-escuela-de-cocina/clase1.jpg" class="card-img-top" alt="Comida Mexicana">
                     <div class="card-header">
@@ -149,8 +152,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Tarjeta 2 -->
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <div class="card">
                     <img src="/multimedia/img-escuela-de-cocina-20241030T182116Z-001/img-escuela-de-cocina/clase2.jpg" class="card-img-top" alt="Comida de Marruecos">
                     <div class="card-header">
@@ -165,8 +167,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Tarjeta 3 -->
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <div class="card">
                     <img src="/multimedia/img-escuela-de-cocina-20241030T182116Z-001/img-escuela-de-cocina/curso_3.jpg" class="card-img-top" alt="10 tipos de ensaladas">
                     <div class="card-header">
@@ -201,7 +202,7 @@
 <footer id="Contacto" class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 d-flex justify-content-center justify-content-md-start">
+            <div class="col-lg-6 d-flex justify-content-center justify-content-md-start">
                 <nav>
                     <a href="" class="nav-link d-inline">Nosotros</a>
                     <a href="#" class="nav-link d-inline">Blog</a>
@@ -210,7 +211,7 @@
                     <a href="#" class="nav-link d-inline">Contacto</a>
                 </nav>
             </div>
-            <div class="col-md-6 d-flex justify-content-center justify-content-md-end">
+            <div class="col-lg-6 d-flex justify-content-center justify-content-md-end">
                 <span class="footer-right">Todos los derechos reservados</span>
             </div>
         </div>

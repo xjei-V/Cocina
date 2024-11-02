@@ -1,4 +1,7 @@
-/* Estilo para el header y la navegación */
+*{
+    padding: 0;
+    margin: 0;
+}
 .header-container {
     padding: 30px 0;
     border-bottom: 2px solid #f0f0f0;
@@ -52,25 +55,28 @@ hr {
 
 .separador {
     width: 30%; 
-    margin: 10px auto 20px; /* Centra el separador y añade espacio debajo */
+    margin: 10px auto 20px; 
 }
 
 .row h2 {
     text-align: center;
     display: flex;
     justify-content: center;
+    margin-top: 70px;
 }
 
-.row .col-lg-4 {
-    margin-top: 20px; /* Espacio arriba de cada ícono */
-}
+
 .contenedor{
     text-align: center;
+    width: 100%;
 }
+
+
 
 .card {
     border: 1px solid #ddd;
     margin: 10px 0;
+    
 }
 .resalt{
     color: #e55b5b;
@@ -83,6 +89,7 @@ hr {
     padding: 5%;
     text-align: start;
     position: relative;
+
 }
 .price-badge {
     background-color: #76c893;
@@ -95,17 +102,18 @@ hr {
 }
 .card-body {
     text-align: center;
+    height: auto;
 }
 .btn-info {
     background-color: #ff6b6b;
     border: none;
-    padding: 8px 80px;
+    padding: 8px 10px;
 }
 .btn-info:hover {
     background-color: #e55b5b;
 }
 .banner {
-    background-image: url('/multimedia/img-escuela-de-cocina-20241030T182116Z-001/img-escuela-de-cocina/chef_bg.jpg'); /* Reemplaza 'URL_DE_LA_IMAGEN.jpg' por la ruta de tu imagen */
+    background-image: url('/multimedia/img-escuela-de-cocina-20241030T182116Z-001/img-escuela-de-cocina/chef_bg.jpg'); 
     background-size: cover;
     background-position: center;
     height: 100vh;
